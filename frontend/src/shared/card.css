@@ -1,0 +1,129 @@
+.tour__img img {
+  width: 100%;
+  border-radius: 5px 5px 0 0;
+}
+
+.card {
+  border: none !important;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 18px 50px -10px;
+}
+
+.tour__img {
+  position: relative;
+  transition: 0.4s;
+}
+.tour__img span {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: max-content;
+  height: max-content;
+  z-index: 10;
+  background: var(--primary-color);
+  color: #000;
+  padding: 0.3rem 0.5rem;
+  border-radius: 3px 0 0 0;
+}
+.card__top span i {
+  color: var(--secondary-color);
+}
+
+.tour__location {
+  /* color: var(--heading-color); */
+  color: #000;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.tour__location i {
+  font-size: 1.8rem;
+}
+.tour__title {
+  margin-top: 1rem;
+  font-size: 1.1rem;
+  cursor: pointer;
+}
+.tour__title a {
+  text-decoration: none;
+  /* color: var(--heading-color); */
+  color: #000;
+  transition: 0.3s;
+}
+.tour__title a:hover {
+  color: var(--secondary-color);
+}
+.card__bottom h5 {
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+.card__bottom h5 span {
+  font-weight: 500;
+  /* color: var(--text-color); */
+  color: #000;
+  font-size: 0.8rem;
+}
+.edit__btn {
+  background: #f59e0b !important;
+  color: white;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem !important;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.edit__btn a {
+  font-size: 0.9rem;
+  color: #fff;
+}
+.edit__btn:hover {
+  background-color: #d97706; /* Darker orange on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+.edit__btn:active {
+  background-color: #b45309; /* Even darker orange on click */
+  transform: translateY(0); /* Reset lift effect */
+}
+.view-button {
+  background-color: #10b981;
+  color: white;
+  font-weight: 600;
+  padding: 0.2rem 0.5rem !important;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.view-button a {
+  text-decoration: none;
+  font-size: 0.9rem;
+  color: #fff;
+}
+.view-button:hover {
+  background-color: #059669;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.view-button:active {
+  background-color: #047857;
+  transform: translateY(0); /* Reset lift effect */
+}
+
+@media only screen and (max-width: 576px) {
+  .tour__title {
+    font-size: 1rem;
+  }
+  .booking__btn a {
+    font-size: 0.8rem;
+  }
+  .booking__btn {
+    padding: 0.2rem 0.5rem !important;
+  }
+  .tour__location,
+  .tour__rating {
+    font-size: 0.8rem;
+  }
+}

@@ -1,0 +1,144 @@
+.tour__img img {
+  width: 100%;
+  border-radius: 0.5rem;
+}
+.tour__information {
+  border-radius: 0.5rem;
+  border: 1px solid rgb(229, 231, 235);
+  padding: 2rem;
+}
+.tour__information h2 {
+  font-size: 1.5rem;
+}
+.tour__information span {
+  display: flex;
+  align-items: center;
+  column-gap: 0.5rem;
+  font-size: 1rem;
+  color: var(--text-color);
+}
+.tour__information span i {
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+}
+.tour__extra-info {
+  display: flex;
+  align-items: center;
+  column-gap: 2.7rem;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.tour__information h5 {
+  margin-bottom: 1rem;
+  font-size: 1.3rem;
+}
+.tour__information p {
+  line-height: 30px;
+  font-size: 1rem;
+  text-indent: 10%;
+  color: var(--text-color);
+}
+.delete-button {
+  background-color: #ef4444; /* Red color */
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between symbol and text */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.delete-button a {
+  color: white;
+}
+
+.symbol {
+  font-size: 1.2em;
+}
+
+.delete-button:hover {
+  background-color: #dc2626; /* Darker red on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.delete-button:active {
+  background-color: #b91c1c; /* Even darker red on click */
+  transform: translateY(0); /* Reset lift effect */
+}
+.edit-button {
+  background-color: #f59e0b; /* Blue color */
+  color: white;
+  font-weight: 600;
+  padding: 10px 25px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between symbol and text */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.edit-button a {
+  color: white;
+}
+.symbol {
+  font-size: 1.2em;
+}
+
+.edit-button:hover {
+  background-color: #d97706; /* Darker blue on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.edit-button:active {
+  background-color: #b45309; /* Even darker blue on click */
+  transform: translateY(0); /* Reset lift effect */
+}
+.back-button {
+  background-color: #06b6d4; /* Cyan color */
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.4); /* Slightly deeper shadow for dark theme */
+  display: flex;
+  align-items: center;
+  gap: 8px; /* Space between symbol and text */
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.back-button a{
+  color: white;
+}
+.symbol {
+  font-size: 1.2em;
+}
+
+.back-button:hover {
+  background-color: #0891b2; /* Darker cyan on hover */
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.back-button:active {
+  background-color: #0e7490; /* Even darker cyan on click */
+  transform: translateY(0); /* Reset lift effect */
+}
+
+@media only screen and (max-width: 768px) {
+  .tour__extra-details {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+  .tour__extra-details span {
+    font-size: 0.9rem;
+  }
+  .tour__extra-details span i {
+    font-size: 1rem;
+  }
+}

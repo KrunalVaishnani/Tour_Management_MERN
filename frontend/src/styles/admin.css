@@ -1,0 +1,45 @@
+.pagination span {
+  width: 2rem;
+  height: 2rem;
+  padding: 5px;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid var(--secondary-color);
+  color: var(--heading-color);
+  font-size: 1.1rem;
+  cursor: pointer;
+  font-weight: 700;
+}
+.active__page {
+  background: var(--secondary-color);
+  color: #fff !important;
+}
+.create-button {
+  background-color: #84cc16;
+  color: white;
+  font-weight: 600;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 1.3rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+.create-button a {
+  color: white;
+}
+.create-button .symbol{
+  color: white !important;
+}
+.create-button:hover {
+  background-color: #4d7c0f;
+  transform: translateY(-2px);
+}
+
+.create-button:active {
+  background-color: #4d7c0f; 
+  transform: translateY(0); 
+}
